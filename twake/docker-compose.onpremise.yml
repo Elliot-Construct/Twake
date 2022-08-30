@@ -7,7 +7,7 @@ services:
     ports:
       - 13253:9042
     volumes:
-      - ./docker-data/scylladb:/var/lib/scylla
+      - /home/zest/twake/docker-data/scylladb:/var/lib/scylla
 
   rabbitmq:
     image: rabbitmq:3
