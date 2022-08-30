@@ -2,7 +2,6 @@ version: "3.4"
 
 services:
   mongo:
-    container_name: zestmongo
     image: mongo
     volumes:
       - /home/zest/zesthq/docker-data/mongo:/data/db
